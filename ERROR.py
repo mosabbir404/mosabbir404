@@ -780,7 +780,7 @@ uid=[]
 tokenku=[]
 user_agents=[]
 #▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ USERNAME ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
-clear();username=input(f" USERNAME : ")
+clear();username=input(f" MOSABBIR : ")
 #▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ LOGIN ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 def login():
     try:
